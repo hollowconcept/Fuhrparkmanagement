@@ -1,0 +1,35 @@
+Mitarbeiter benötigen folgende Ansichten:
+- Buchungen hinzufügen
+- Buchungen anzeigen
+
+(deletereservation funktion einbringen)
+
+
+Fuhrparkmanager ansichten
+- fahrzeuge hinzufügen aktualisieren
+- fahrzeuge anzeigen
+- fahrzeuge löschen X
+- offene buchungen anzeigen mit filter, ablehnen und annehmen / zusagen  X
+- feste reservierungen anzeigen 
+
+
+(Jedes Fahrzeug sollte eine Historie von Buchungen, Schäden, Reparaturen und Wartungen aufweisen (möglicherweise onclick diese anzeigen oder weitere Ansichten)) 
+Fuhrparkmanager bekommt die neuen offenen buchungen der Mitarbeiter und kann diese ablehnen oder annehmen wobei das ablehnen ein Grund benötigt (ablehnen mit begründungsinput)
+Filtermöglichkeit bei den offenen buchungen
+
+
+
+1. UserID muss automatisch eingetragen werden in die SQL Datenbank
+
+
+2. gebuchtes Fahrzeug kann nicht zur gleichen Zeit gebucht werden
+
+
+
+Tasks:
+
+1. Datenbanktabellen ausfüllen
+2. Controller ausfüllen damit 
+3. ViewX Ansichten debugged werden können 
+4. View Ansichten fertiggestellt werden können
+5. Fehlende Methoden ergänzen und fertigstellen

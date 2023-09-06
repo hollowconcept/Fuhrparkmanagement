@@ -1,0 +1,83 @@
+Planung Fuhrparkmanagement
+
+Grobe Anforderung:
+
+
+Den Mitarbeiter der PP2000 soll es ermöglicht werden, Poolfahrzeuge zu buchen über eine zentrale Webanwendung.
+Es soll möglich sein Grund und Dauer für die Buchung anzugeben. Zentraler Fuhrparkmanager sieht alle Einträge
+und kann alle verwalten. Außerdem kann der Fuhrparkmanager die Autos verwalten. Jedes Auto hat eine eigene Historie.
+Was Buchungen und Wartungen angeht
+
+Technologien:
+
+Projektmappe: CarManagement
+Projekte: CarManagement_Web, CarManagement_Backend, CarManagement_GlobalDefinitions
+Projektart: ASP.Net MVC Framework
+Für den Rest Klassenbibliothek im .Net Framework
+
+
+- Eine Version für Mitarbeiter und Standardnutzer
+1. Diese können Fahrzeuge buchen mit Grund und Dauer
+- Eine Version für Fuhrparkmanager
+1. Dieser hat eine Übersicht mit allen Fahrzeugen und kann diese verwalten und sieht alle Buchungen und Wartungen.
+2. Übersicht mit allen Buchungen und kann diese verwalten.
+3. Übersicht mit neuen Buchungen
+
+
+Ansichten: 
+- Login
+Mitarbeiter:
+- Mitarbeiter-Home
+Fuhrparkmanager:
+- Fuhrparkmanager-Home
+- Buchungsansicht
+- Autoansicht 
+- Neue Buchungen Ansicht
+
+
+Klassen:
+- User
+- Autos
+- Buchungen
+
+
+- Buchungen als Anfrage oder als automatische Buchung
+
+Datenbank zuerst.
+- (Zeitmanagement)
+
+
+Users
+- ID
+- Username
+- FirstName
+- LastName
+- Email
+- Address
+- Password 
+- Active
+- LastUpdate
+- CreationDate
+
+Buchungen
+- ID  
+- FahrzeugID
+- Availability
+- Damage
+- ReservationDate
+- Status
+- CreationDate
+
+Fahrzeuge
+- ID
+- Fahrzeugnummer
+- VehicleModel
+- Verfügbarkeit
+- Schaden
+- AcquisitionDate
+- ProductionDate
+
+Schaden
+- FahrzeugID
+- DamageSpecification
+- OccurrenceDate

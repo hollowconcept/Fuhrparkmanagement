@@ -1,0 +1,22 @@
+Fragen und weiteres zum Fuhrparkmanagement-Projekt
+
+- Wie bekomme ich eine Buchungsanfrage von dem Nutzer zum Fuhrparkmanager geschickt.
+
+
+
+- Rückzug einer Reservierung als Anfrage
+- Ablehnung mit nötiger Begründung
+- Reservierte Fahrzeuge können von einem Kollegen nicht gebucht werden.
+
+
+Mitarbeiter:
+- Login
+- Buchungen und Reservierungen mit Rückzug Ansicht
+- Alle Buchungen
+
+Fuhrparkmanager:
+- Login
+- Offene Buchungen 
+- Feste Buchungen
+- Fahrzeuge hinzufügen löschen und bearbeiten Ansicht
+- Alle Fahrzeuge Ansicht

@@ -1,0 +1,3 @@
+darkpro
+claudia ide code alignment
+microsoft.visualstudio.component.intellicode
